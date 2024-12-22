@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 640px) {
+    .mainHeader{
+        background-color: #0088cc !important;
+    }
+    .main{
+        display: flex;
+        width: max-content;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+        
+    }
+  }
+
+
+
+@media (max-width: 440px) {
+   
+    .main{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 1px 0px;
+        box-shadow: inset;
+    }
+    .left{
+        display: flex;
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .heading{
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .versus{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .tbody{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+    }
+    .header{
+        display: none;
+    }
+    .date{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+  }
